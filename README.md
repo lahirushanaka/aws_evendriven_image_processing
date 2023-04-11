@@ -18,7 +18,7 @@ This project provides a solution for event-driven image processing using AWS Lam
 2. `cd` into the `event-driven-image-processing/lambda` directory.
 3. Run `terraform init` to initialize the Terraform configuration.
 4. Update the `DESTINATION_BUCKET` and `WATERMARK_TEXT` variables in the `main.tf` file according to your requirements.
-5. Run `terraform apply` to create the necessary resources on AWS.
+5. Run `terragrunt apply` to create the necessary resources on AWS.
 6. Upload an image to the source S3 bucket.
 7. Check the destination S3 bucket for the processed image.
 
