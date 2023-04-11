@@ -11,6 +11,7 @@ This project provides a solution for event-driven image processing using AWS Lam
 - AWS account
 - AWS CLI installed and configured
 - Terraform installed
+- S3 bucket for TF state
 
 ## Usage
 
